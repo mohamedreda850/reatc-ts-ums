@@ -61,7 +61,7 @@ export default function SideBar() {
           <h5 className="text-[#FEAF00]">Admin</h5>
         </div>
         <Menu className="">
-          <MenuItem icon={<FaHome />} component={<Link to="/dashboard" />}>
+          <MenuItem icon={<FaHome />} component={<Link to="/dashboard/home" />}>
             {" "}
             Home
           </MenuItem>
